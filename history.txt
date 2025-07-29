@@ -1,0 +1,453 @@
+    1  go mod tidy
+    2  sudo snap install go --classic
+    3  go version
+    4  sudo apt update
+    5  sudo apt install build-essential
+    6  gcc --version
+    7  consts/consts.go
+    8  export PATH=$PATH:$(go env GOPATH)/bin
+    9  export PATH=$PATH:/usr/local/go/bin
+   10  MODE="run-single" ./scripts/run.sh
+   11  go mod tidy
+   12  $env:PATH += ";$(go env GOPATH)\bin"
+   13  sudo snap install go --classic
+   14  go version
+   15  sudo apt update
+   16  sudo apt install build-essential
+   17  gcc --version
+   18  go mod tidy
+   19  .token-cli
+   20  ./build/token-cli action create-asset
+   21  killall avalanche-network-runner
+   22  sudo apt update
+   23  >> sudo apt install build-essential
+   24  gcc --version
+   25  ./build/token-cli key import demo.pk
+   26  ./build/token-cli action create-asset
+   27  .token-cli
+   28  sudo snap install go --classic
+   29  go version
+   30  sudo apt update
+   31  sudo apt install build-essential
+   32  gcc --version
+   33  go mod tidy
+   34  go mod init
+   35  $env:PATH += ";$(go env GOPATH)\bin"
+   36  export PATH=$PATH:$(go env GOPATH)/bin
+   37  export PATH=$PATH:/usr/local/go/bin
+   38  MODE="run-single" ./scripts/run.sh
+   39  $env:MODE = "run-single"
+   40  MODE="run-single"
+   41  bash ./scripts/run.sh
+   42  ./scripts/build.sh
+   43  ls -l ./build/
+   44  ./build/token-cli action create-asset
+   45  sudo snap install go --classic
+   46  go version
+   47  sudo apt update
+   48  sudo apt install build-essential
+   49  gcc --version
+   50  export PATH=$PATH:$(go env GOPATH)/bin
+   51  export PATH=$PATH:/usr/local/go/bin
+   52  MODE="run-single" 
+   53  chmod +x ./build/token-cli
+   54  ./build/token-cli action mint-asset
+   55  ./build/token-cli key balance
+   56  ./build/token-cli action transfer
+   57  sudo snap install go --classic
+   58  go version
+   59  sudo apt update
+   60  sudo apt install build-essential
+   61  gcc --version
+   62  export PATH=$PATH:$(go env GOPATH)/bin
+   63  export PATH=$PATH:/usr/local/go/bin
+   64  MODE="run-single" 
+   65  ./scripts/build.sh
+   66  ./build/token-cli
+   67  ./build/token-cli key import demo.pk
+   68  ./build/token-cli action create-asset
+   69  go build -o ./build/token-cli ./cmd/token-cli
+   70  ./build/token-cli action create-asset
+   71  MODE="run-single" ./scripts/run.sh
+   72  go build -o ./build/token-cli ./cmd/token-cli
+   73  go install -v github.com/goreleaser/goreleaser@latest
+   74  sudo snap install go --classic
+   75  go version
+   76  sudo apt update
+   77  sudo apt install build-essential
+   78  gcc --version
+   79  go mod tidy
+   80  export PATH=$PATH:$(go env GOPATH)/bin
+   81  export PATH=$PATH:/usr/local/go/bin
+   82  mkdir -p ./build
+   83  echo "Building tokenvm in ./build/$name"
+   84  go build -o ./build/$name ./cmd/tokenvm
+   85  echo "Building token-cli in ./build/token-cli"
+   86  MODE="run-single"
+   87  ./scripts/build.sh
+   88  ./build/token-cli action create-asset
+   89  killall avalanche-network-runner
+   90  curl -L https://github.com/ava-labs/avalanche-cli/releases/latest/download/avalanche-linux-amd64 -o avalanche
+   91  chmod +x avalanche
+   92  sudo mv avalanche /usr/local/bin/
+   93  avalanche --version
+   94  cd ~/avalanchego
+   95  git pull origin master
+   96  ./scripts/build.sh
+   97  sudo snap install go --classic
+   98  go version
+   99  sudo apt update
+  100  sudo apt install build-essential
+  101  gcc --version
+  102  export PATH=$PATH:$(go env GOPATH)/bin
+  103  export PATH=$PATH:/usr/local/go/bin
+  104  MODE="run-single"
+  105  ./scripts/build.sh
+  106  export CGO_ENABLED=1
+  107  go build -o ./build/$name ./cmd/tokenvm
+  108  go help modules
+  109  dpkg --print-architecture
+  110  go build -a -v
+  111  go --version
+  112  export CC=gcc
+  113  set CC=clang
+  114  go build -a -v
+  115  gcc --version
+  116  sudo snap install go --classic
+  117  go version
+  118  sudo apt update
+  119  sudo apt install build-essential
+  120  gcc --version
+  121  export PATH=$PATH:$(go env GOPATH)/bin
+  122  export PATH=$PATH:/usr/local/go/bin
+  123  MODE="run-single"
+  124  echo "Building tokenvm in ./build/$name"
+  125  echo "Building token-cli in ./build/token-cli"
+  126  date
+  127  bc
+  128  sudo apt update
+  129  sudo apt upgrade
+  130  clear
+  131  history
+  132  history>hostory.txt
+  133  history>history.txt
+  134  echo $SHELL
+  135  printenv SHELL
+  136  whoami
+  137  whatis echo
+  138  whatis printenv
+  139  whatis whoami
+  140  whatis cat
+  141  whereis cat
+  142  whereis gcc
+  143  info cat
+  144  sudo apt install gcc
+  145  clear
+  146  history
+  147  history>history.txt
+  148  sudo apt install build-essential
+  149  date
+  150  date "+%D"
+  151  date "+%D %T"
+  152  date "+%Y-%m-%d"
+  153  date "+%Y/%m/%d"
+  154  date "+%A %B %d %Y %T"
+  155  date --date "tomorrow"
+  156  date --date "2 years ago"
+  157  man date
+  158  clear
+  159  history>history.txt
+  160  cal
+  161  sudo apt install ncal
+  162  cal
+  163  cal 7 2025
+  164  cal 5 2025
+  165  cal 2025
+  166  cal -3 2025
+  167  cal -3
+  168  clear
+  169  history>history.txt
+  170  ps
+  171  exit
+  172  bc
+  173  bc <<< "12/5"
+  174  bc <<< "scale=2; 12/5"
+  175  bc <<< "2>5"
+  176  bc <<< "2^10"
+  177  uname
+  178  uname -o
+  179  uname -i
+  180  uname -n
+  181  uname -v
+  182  uname -s
+  183  uname -m
+  184  uname -r
+  185  uname -a
+  186  echo "Welcome to Linux"
+  187  echo -e "Hello \t World"
+  188  echo -n "Hello World"
+  189  echo "Welcome to \"Linux\""
+  190  echo `date`
+  191  echo "This is
+  192  echo "This is Linux Training for Notchup July 2025"
+  193  printf "Linux training"
+  194  printf "Linux training\n"
+  195  printf "My shell is %s\n" $SHELL
+  196  seq 1 10
+  197  seq 1 3 10
+  198  seq 10 -1 1
+  199  seq 20 -2 0
+  200  seq -s " " 10
+  201  seq -s " " 5 10
+  202  seq -s 5 10
+  203  seq -s " " 5 3 50
+  204  rev <<< Linux
+  205  history
+  206  history>history.txt
+  207  seq 1 10
+  208  date --date "2 years ago"
+  209  sudo apt install ncal
+  210  echo $?
+  211  false
+  212  echo $?
+  213  ls
+  214  nano newfile
+  215  cd new
+  216  ls
+  217  cd
+  218  cd -
+  219  mkdir -p d1/d2
+  220  ls
+  221  cd d1
+  222  ls
+  223  ls -l
+  224  cd ..
+  225  cd
+  226  ls -l
+  227  ls -a
+  228  ls -R
+  229  nano demo
+  230  wc demo
+  231  touch newfile.txt
+  232  nano newfile.txt
+  233  cat newfile.txt
+  234  cat newfile.txt > output.txt
+  235  cat output.txt
+  236  cat -n demo
+  237  ls
+  238  mkdir training
+  239  cp newfile output.txt training
+  240  cd training
+  241  ls
+  242  cd
+  243  ls
+  244  ls -R
+  245  cp -r new training
+  246  ls
+  247  cd training
+  248  ls
+  249  cd new
+  250  ls
+  251  cd
+  252  mv output.txt out
+  253  ls
+  254  mv out training
+  255  ls
+  256  cd training
+  257  ls
+  258  vi sum.c
+  259  gcc sum.c && ./a.out
+  260  sudo apt install update
+  261  sudo apt install gcc
+  262  gcc ifelse.c
+  263  cd notchupfy26
+  264  cd notchupJul25
+  265  gcc ifelse.c
+  266  gcc 1darray.c
+  267  cd ..
+  268  gcc 1darray.c
+  269  ./a.out
+  270  sudo apt install update
+  271  sudo apt update
+  272  sudo apt upgrade
+  273  sudo apt install build-essential
+  274  history>history.txt
+  275  history
+  276  history>history.txt
+  277  history>d1\d2
+  278  history >> d1/d2/history.txt
+  279  history >> d1\d2/history.txt
+  280  history>history.txt
+  281  history > d1/d2/history.txt
+  282  history > d1\d2/history.txt
+  283  exit
+  284  history
+  285  history>history.txt
+  286  echo $SHELL
+  287  whoami
+  288  whatis cat
+  289  whatis gcc
+  290  whereis cat
+  291  whereis gcc
+  292  info cat
+  293  sudo apt update
+  294  sudo apt upgrade
+  295  sudp apt install build-essential
+  296  sudo apt install gcc
+  297  sudo apt install g++
+  298  date; uname -r; whoami
+  299  date; unam -r; whoami
+  300  date && whoami
+  301  date
+  302  date "+%D"
+  303  date "+%D %T"
+  304  date "%Y - %m - %d"
+  305  date "+%Y - %m - %d"
+  306  date "+%Y/%m/%d"
+  307  date "+%d/%m/%Y"
+  308  date "+%A %B %d %y %T"
+  309  date "+%A %B %d %Y %T"
+  310  info date
+  311  date --date "tomorrow"
+  312  date --date "2 years ago"
+  313  cal
+  314  cal 10 2025
+  315  cal 2025
+  316  cal -3
+  317  cal -5
+  318  bc
+  319  bc <<< "12/5"
+  320  bc <<< "scale=2; 12/5"
+  321  bc <<< "2>3"
+  322  bc <<< "2^10"
+  323  uname -o
+  324  uname -i
+  325  uname -n
+  326  uname -v
+  327  uname -s
+  328  uname -m
+  329  uname -r
+  330  uname -a
+  331  echo "Welcome to Linux Training"
+  332  echo -e "Hello \t World"
+  333  echo -n "Hello world"
+  334  echo "Welcome to \"Linux Training\""
+  335  echo "date"
+  336  echo date
+  337  echo `date`
+  338  echo "welcome to Linux Training"
+  339  echo "Welcome to \"Linux\" Training"
+  340  seq 1 10
+  341  seq 1 3 10
+  342  seq 10 -1 1
+  343  seq 20 -2 1
+  344  seq -s " " 10
+  345  seq -s " " 5 10
+  346  seq -s " " 5 3 15
+  347  rev <<< linux training
+  348  rev <<< linux
+  349  history
+  350  history>history.txt
+  351  history 10
+  352  seq 1 3 10
+  353  date --date "2 years ago"
+  354  echo $?
+  355  unam -r
+  356  uname -r
+  357  echo $?
+  358  date
+  359  echo $?
+  360  man cat
+  361  nano test
+  362  ls
+  363  cd training
+  364  ls
+  365  cd new
+  366  cd ..
+  367  cd new
+  368  cd
+  369  cd -
+  370  cd
+  371  pwd
+  372  cd -
+  373  pwd
+  374  cd
+  375  mkdir stepin
+  376  cd stepin
+  377  mkdir sdlc git linux
+  378  ls
+  379  cd sdlc
+  380  mkdir -p models/agile
+  381  ls
+  382  cd models
+  383  ls
+  384  cd
+  385  ls
+  386  ls -l
+  387  ls -a
+  388  ls -R
+  389  cd stepin
+  390  ls -R
+  391  cd agile
+  392  cd sdlc
+  393  cd models
+  394  cd agile
+  395  nano cicd
+  396  wc cicd
+  397  wc this is day 2 of the training
+  398  wc
+  399  touch new file.txt
+  400  ls
+  401  nano newfile.txt
+  402  cat newfile.txt
+  403  cat cicd
+  404  cat cicd > new.txt
+  405  cat new.txt
+  406  cat newfile.txt >> new.txt
+  407  cat new.txt
+  408  cat cicd > new.txt
+  409  cat new.txt
+  410  cat -n cicd
+  411  tac cicd
+  412  cd ..
+  413  ls
+  414  cd ..
+  415  ls
+  416  cd ..
+  417  cd
+  418  ls
+  419  cp demo newfile stepin
+  420  ls
+  421  cd stepin
+  422  ls
+  423  cp -r training stepin
+  424  cd
+  425  cp -r training stepin
+  426  cd stepin
+  427  ls
+  428  cd
+  429  ls
+  430  cd stepin
+  431  ls
+  432  mv newfile git
+  433  ls
+  434  cd git
+  435  ls
+  436  mv newfile Day2
+  437  ls
+  438  rm Day2
+  439  ls
+  440  cd
+  441  ls
+  442  rm n*
+  443  ls
+  444  rmdir new
+  445  cd new
+  446  ls
+  447  cd
+  448  rm -r new
+  449  ls
+  450  history
+  451  history>history.txt
+  452  exit
+  453  history>history.txt
